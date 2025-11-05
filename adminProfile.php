@@ -29,8 +29,8 @@
 <?php include("admin-sidebar.php") ;?> 
 
 <!-- Admin Profile Section -->
-        <section id="admin-profile" class="content-section active mx-6">
-            <h2 class="text-4xl font-bold text-PURPLE-900 mb-8">Admin Profile</h2>
+        <section id="admin-profile" class="content-section active mx-6" style="width: calc(100% - 4.5rem);">
+            <h2 class="text-4xl font-bold text-green-700 mb-8">Admin Profile</h2>
             <div class="bg-white p-8 rounded-lg shadow-md max-w-xl">
                 <div class="flex items-center space-x-6 mb-6">
                     <img src="https://placehold.co/100x100/green/white?text=MA" alt="Admin Avatar" class="h-24 w-24 rounded-full object-cover border-4 border-green-200">

@@ -14,9 +14,10 @@ if ($conn->connect_error) {
     die("Unable to connect to the database. Please try again later.");
 }
 
+
 // Prepare the SQL query
 // Note: It's good practice to explicitly select only the columns you need.
-$sql = "SELECT * FROM register ORDER BY date_created DESC";
+$sql = "SELECT fullName, email, graduation_year, phoneNumber FROM register ORDER BY date_created DESC";
 $result = $conn->query($sql);
 
 // Check if the query was successful
@@ -25,6 +26,7 @@ if ($result === FALSE) {
     error_log("SQL Error: " . $conn->error);
     die("An error occurred while fetching alumni data. Please try again later.");
 }
+// Note: It's good practice to explicitly select only the columns you need.
 
 $sn = 1; // Initialize serial number
 ?>

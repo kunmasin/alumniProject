@@ -64,8 +64,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php include("admin-sidebar.php") ;?>
 
 <!-- News & Events Management Section -->
-        <section id="news-events-management" class="content-section active mx-6">
-            <h2 class="text-4xl font-bold text-blue-700 mb-8 my-4">News & Events Management</h2>
+        <section id="news-events-management" class="content-section active mx-6" style="width: calc(100% - 4.5rem);">
+            <h2 class="text-4xl font-bold text-green-700 mb-8 my-4">News & Events Management</h2>
 
             <div class="bg-white p-6 rounded-lg shadow-md mb-8 ">
                 <h3 class="text-2xl font-bold text-gray-800 mb-4">Add New News/Event</h3>
